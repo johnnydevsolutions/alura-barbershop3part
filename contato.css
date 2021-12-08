@@ -1,0 +1,116 @@
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline; }
+
+    
+    main {
+        width: 940px;
+        margin: 0 auto;
+    }
+
+    form{
+        margin: 40px 0;
+    }
+
+    form label, form legend {
+        display: block;
+        font-size:20px;
+        margin:0 0px;
+        
+    }
+     
+    .input-padrao{
+        display: block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 50%;
+    }
+
+    fieldset {
+        display: block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 50%;
+    }
+     /* Revisar os comandos do form label e input padrao*/
+
+    .checkbox {
+        margin: 20px 0;
+    }
+    
+    .enviar {
+        width: 40%;  /*O botão enviar irá ocupar 40%  da linha */
+        padding: 15px 0; /* Padding irá dar um respiro no que está dentrodo elemento alargando ele dedentro pra fora */
+        background-color: orange;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        transition: 1s ease-in-out all;
+        cursor: pointer;
+        transform: scale(1.2); /* Eu quero aumentar o botão em 20% para isso usei o transform: scale(1.2) que calculou para mim do 1 até 2 do 10 para 20% */
+    }
+
+    .enviar:hover{
+        background-image: linear-gradient(to right,#bd6d13, #fdb51b); 
+    }
+    
+    table {
+        margin: 20px 0 40px;
+    }
+
+    thead{
+        background-color: #555555;
+        color: white;
+        font-weight: bold;
+    }
+
+    td, th {
+        border: 1px solid #000000;
+        padding: 8px 15px;
+    }
+
+
+    footer {
+        background-color: black;
+        text-align: center;
+        padding: 40px 0;
+    }
+    
+    .copyright {
+        color: #FFFFFF;
+        font-size: 13px;
+        margin: 20px 0 0;
+    }
+
